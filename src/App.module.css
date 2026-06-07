@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.banner {
+  width: 550px;
+  height: auto;
+}
+
+.linha {
+  width: 2px;
+  height: 100vh;
+  background-color: #dbdbdb;
+}
+
+.card {
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.serra {
+  color: #0095f6;
+}
+
+.gram {
+  color: #8a3ab9;
+}
+
+h2,
+p {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0095f6;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+}
+
+hr {
+  margin: 15px 0;
+}
